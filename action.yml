@@ -1,0 +1,26 @@
+name: Citellus execution
+description: This action runs Citellus against repo and deploys to GHpages
+
+branding:
+  icon: 'home'
+  color: 'blue'
+
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+
+inputs:
+  GH_PAGES_BRANCH:
+    description: 'override the default `gh-pages` deployment branch'
+    required: false
+    default: 'gh-pages'
+
+  SOSREPORT:
+    description: 'override the default `.` folder for SOSREPORT source'
+    required: false
+    default: '.'
+
+  CONFIG_PATH:
+    description: 'Defines .citellus.conf configuration path'
+    required: false
+    default: ''
