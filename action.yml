@@ -20,7 +20,7 @@ inputs:
     required: false
     default: '.'
 
-  CONFIG_PATH:
+  CONFIGPATH:
     description: 'Defines .citellus.conf configuration path'
     required: false
     default: ''

@@ -19,7 +19,7 @@ fi
 
 echo '=================== Run citellus ==================='
 mkdir -p output/
-citellus.py -v --config-path ${CONFIG_PATH:=""} ${SOSREPORT:=.} -o output/citellus.json
+citellus.py -v --config-path ${CONFIGPATH:=""} ${SOSREPORT:=.} -o output/citellus.json
 
 echo '=================== Publish to GitHub Pages ==================='
 cd output
