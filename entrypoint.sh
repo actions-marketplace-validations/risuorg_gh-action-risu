@@ -18,6 +18,7 @@ if [ -f build.sh ]; then
 fi
 
 echo '=================== Run citellus ==================='
+mkdir -p output/
 citellus.py --config-path ${CONFIG_PATH:=""} ${SOSREPORT:=.} -o output/
 
 echo '=================== Publish to GitHub Pages ==================='
