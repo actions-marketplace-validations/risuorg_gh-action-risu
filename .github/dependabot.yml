@@ -14,4 +14,3 @@ updates:
         prefix: build
         prefix-development: chore
         include: scope
-        
