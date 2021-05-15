@@ -1,3 +1,9 @@
+## [1.0.4](https://github.com/Risuorg/gh-action-Risu/compare/1.0.3...1.0.4) (2021-05-15)
+
+### Bug Fixes
+
+- fix the output filename that had a typo ([926b440](https://github.com/Risuorg/gh-action-Risu/commit/926b440635d1a6ae2b757dd7b18a20304dd3783f))
+
 ## [1.0.3](https://github.com/Risuorg/gh-action-Risu/compare/1.0.2...1.0.3) (2021-05-15)
 
 ### Bug Fixes
