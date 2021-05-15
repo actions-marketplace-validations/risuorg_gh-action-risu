@@ -1,3 +1,9 @@
+## [1.0.3](https://github.com/Risuorg/gh-action-Risu/compare/1.0.2...1.0.3) (2021-05-15)
+
+### Bug Fixes
+
+- **requirements.txt:** define requirements for risu package ([12fc543](https://github.com/Risuorg/gh-action-Risu/commit/12fc543207c424b564a39b14d04cf40ab9357fc1))
+
 ## [1.0.2](https://github.com/Risuorg/gh-action-Risu/compare/1.0.1...1.0.2) (2021-05-15)
 
 ### Bug Fixes
