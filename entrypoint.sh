@@ -19,7 +19,7 @@ fi
 
 echo '=================== Run Risu ==================='
 mkdir -p output/
-risu.py -v --config-path ${CONFIGPATH:=""} ${SOSREPORT:=.} -o output/Risu.json
+risu.py -v --config-path ${CONFIGPATH:=""} ${SOSREPORT:=.} -o output/risu.json
 
 echo '=================== Publish to GitHub Pages ==================='
 cd output
