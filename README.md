@@ -36,7 +36,7 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-pip-
 
-      - uses: Risuorg/gh-action-Risu@0.0.1
+      - uses: risuorg/gh-action-Risu@0.0.1
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
           SOSREPORT: test
