@@ -17,9 +17,9 @@ if [ -f build.sh ]; then
     bash -x build.sh
 fi
 
-echo '=================== Run citellus ==================='
+echo '=================== Run Risu ==================='
 mkdir -p output/
-citellus.py -v --config-path ${CONFIGPATH:=""} ${SOSREPORT:=.} -o output/citellus.json
+risu.py -v --config-path ${CONFIGPATH:=""} ${SOSREPORT:=.} -o output/Risu.json
 
 echo '=================== Publish to GitHub Pages ==================='
 cd output

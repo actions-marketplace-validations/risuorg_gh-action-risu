@@ -1,19 +1,19 @@
-# GitHub Citellus Action
+# GitHub Risu Action
 
-This action runs Citellus with provided parameters via optional `build.sh` and pushes the generated content to Git Hub Pages site.
+This action runs Risu with provided parameters via optional `build.sh` and pushes the generated content to Git Hub Pages site.
 
 ## Environment variables
 
 - `GH_PAGES_BRANCH` (optional): override the default `gh-pages` deployment branch
 - `SOSREPORT` (optional): override the default `.` folder for SOSREPORT source
-- `CONFIGPATH` (optional): Set path for finding the `.citellus.conf` configuration file
+- `CONFIGPATH` (optional): Set path for finding the `.risu.conf` configuration file
 
 ## Setup
 
-Create a `.github/workflow/citellus.yml` like:
+Create a `.github/workflow/risu.yml` like:
 
 ```yml
-name: Run Citellus analysis
+name: Run RISU analysis
 
 on:
   push:
@@ -23,7 +23,7 @@ on:
     - cron: "0 0 * * *"
 
 jobs:
-  citellus:
+  Risu:
     runs-on: ubuntu-16.04
     steps:
       - uses: actions/checkout@v2
@@ -36,7 +36,7 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-pip-
 
-      - uses: citellusorg/gh-action-citellus@0.0.1
+      - uses: Risuorg/gh-action-Risu@0.0.1
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
           SOSREPORT: test
@@ -48,8 +48,8 @@ Adjust your `build.sh` for additional commands:
 ```sh
 #!/bin/bash
 mkdir -p output
-touch output/citellus.html
-ln -s citellus.html output/index.html
+touch output/risu.html
+ln -s risu.html output/index.html
 ```
 
 Commit and let the GitHub Actions take care of it!

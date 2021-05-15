@@ -1,5 +1,5 @@
-name: Citellus execution
-description: This action runs Citellus against repo and deploys to GHpages
+name: RISU execution
+description: This action runs RISU against repo and deploys to GHpages
 
 branding:
   icon: 'home'
@@ -21,6 +21,6 @@ inputs:
     default: '.'
 
   CONFIGPATH:
-    description: 'Defines .citellus.conf configuration path'
+    description: 'Defines .risu.conf configuration path'
     required: false
     default: ''

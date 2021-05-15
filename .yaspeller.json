@@ -4,5 +4,5 @@
   "maxRequests": 5,
   "ignoreDigits": true,
   "lang": "en",
-  "dictionary": ["yml", "GHA", "Citellus", "GitHub", "SOSREPORT"]
+  "dictionary": ["yml", "GHA", "Risu", "GitHub", "SOSREPORT"]
 }
