@@ -24,3 +24,8 @@ inputs:
     description: 'Defines .risu.conf configuration path'
     required: false
     default: ''
+
+  RUNFILE:
+    description: 'Defines shell script to execute or build.sh as default'
+    required: false
+    default: 'build.sh'

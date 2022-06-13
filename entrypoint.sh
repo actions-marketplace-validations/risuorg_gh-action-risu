@@ -12,9 +12,11 @@ chmod -R u+rwX,go+rwX,go+rwX /github/workspace/ /github/home/.cache/pip
 
 [ -f requirements.txt ] && pip install -r requirements.txt
 
-if [ -f build.sh ]; then
-    echo '=================== Running extra setup ==================='
-    bash -x build.sh
+MYBUILD=${RUNFILE:="build.sh"}
+
+if [ -f ${MYBUILD} ]; then
+    echo '=================== Running extra setup at ${MYBUILD} ==================='
+    bash -x ${MYBUILD}
 fi
 
 echo '=================== Run Risu ==================='

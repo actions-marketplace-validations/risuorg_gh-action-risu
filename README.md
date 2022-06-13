@@ -24,7 +24,7 @@ on:
 
 jobs:
   Risu:
-    runs-on: ubuntu-16.04
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
 
@@ -41,6 +41,7 @@ jobs:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
           SOSREPORT: test
           CONFIGPATH: "./"
+          RUNFILE: "./build.sh"
 ```
 
 Adjust your `build.sh` for additional commands:
