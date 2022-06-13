@@ -1,3 +1,9 @@
+# [1.2.0](https://github.com/Risuorg/gh-action-Risu/compare/1.1.0...1.2.0) (2022-06-13)
+
+### Features
+
+- **entrypoint:** Install python requirements for testing too as Risu GHA is usually part of testing ([a06adaa](https://github.com/Risuorg/gh-action-Risu/commit/a06adaa1c3856931750849725e4f594bdf7fa7ea))
+
 # [1.1.0](https://github.com/Risuorg/gh-action-Risu/compare/1.0.4...1.1.0) (2022-06-13)
 
 ### Features
