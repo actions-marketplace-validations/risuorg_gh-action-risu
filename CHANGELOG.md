@@ -1,3 +1,9 @@
+# [1.1.0](https://github.com/Risuorg/gh-action-Risu/compare/1.0.4...1.1.0) (2022-06-13)
+
+### Features
+
+- allow to define build script ([8890e9c](https://github.com/Risuorg/gh-action-Risu/commit/8890e9c25af7d9e809f87390801712d3912d0c47))
+
 ## [1.0.4](https://github.com/Risuorg/gh-action-Risu/compare/1.0.3...1.0.4) (2021-05-15)
 
 ### Bug Fixes
