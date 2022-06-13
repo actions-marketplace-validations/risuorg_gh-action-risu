@@ -11,6 +11,7 @@ mkdir -p /github/workspace/ /github/home/.cache/pip
 chmod -R u+rwX,go+rwX,go+rwX /github/workspace/ /github/home/.cache/pip
 
 [ -f requirements.txt ] && pip install -r requirements.txt
+[ -f test-requirements.txt ] && pip install -r test-requirements.txt
 
 MYBUILD=${RUNFILE:="build.sh"}
 
